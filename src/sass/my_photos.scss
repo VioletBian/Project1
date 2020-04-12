@@ -29,11 +29,11 @@ main {
             width: 80%;
         }
         @media (min-width:460px) and (max-width: 759px) {
-            margin-top: calc(4vh + 2px + 25px + 6px + 5px);  
+            margin-top: calc(4vh + 2px + 30px + 6px + 5px);  
             width: 90%;
         }
         @media (max-width: 459px) {
-            margin-top: calc(4vh + 2px + 20px + 6px + 5px); 
+            margin-top: calc(4vh + 2px + 30px + 6px + 5px); 
             width: 96%;
         }
         margin-left: auto;

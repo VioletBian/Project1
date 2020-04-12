@@ -101,10 +101,10 @@ nav {
       height: calc(1vh + 2.5px + 30px + 6px + 5px); } }
   @media (min-width: 460px) and (max-width: 759px) {
     nav {
-      height: calc(1vh + 2px + 25px + 6px + 5px); } }
+      height: calc(1vh + 2px + 30px + 6px + 5px); } }
   @media (max-width: 459px) {
     nav {
-      height: calc(1vh + 2px + 20px + 6px + 5px); } }
+      height: calc(1vh + 2px + 30px + 6px + 5px); } }
 
 .light {
   background-color: rgba(255, 255, 255, 0.9); }
@@ -168,12 +168,12 @@ nav > ul {
         height: 30px; } }
     @media (min-width: 460px) and (max-width: 759px) {
       nav > ul li svg {
-        width: 25px;
-        height: 25px; } }
+        width: 30px;
+        height: 30px; } }
     @media (max-width: 459px) {
       nav > ul li svg {
-        width: 20px;
-        height: 20px; } }
+        width: 30px;
+        height: 30px; } }
     nav > ul li a:hover {
       /* 鼠标选中时背景变为深色 */
       background-color: #cfe2f3;
@@ -303,15 +303,35 @@ nav {
   background-color: rgba(23, 23, 24, 0.7); }
 
 body {
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+  margin: 0 auto; }
 
 main {
-  margin-top: 80px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 20px;
-  padding-right: 20px;
-  width: 800px; }
+  padding-right: 20px; }
+  @media (min-width: 2000px) {
+    main {
+      margin-top: calc(4vh + 4px + 55px + 6px + 5px );
+      width: 70%; } }
+  @media (min-width: 1401px) and (max-width: 1999px) {
+    main {
+      margin-top: calc(4vh + 3px + 30px + 6px + 5px);
+      width: 75%; } }
+  @media (min-width: 760px) and (max-width: 1400px) {
+    main {
+      margin-top: calc(4vh + 2.5px + 30px + 6px + 5px);
+      width: 80%; } }
+  @media (min-width: 460px) and (max-width: 759px) {
+    main {
+      margin-top: calc(4vh + 2px + 30px + 6px + 5px);
+      width: 90%; } }
+  @media (max-width: 459px) {
+    main {
+      margin-top: calc(4vh + 2px + 30px + 6px + 5px);
+      width: 100%; } }
 
 main span {
   font-family: 'Unique',fantasy;
@@ -322,6 +342,9 @@ main span {
   background-origin: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+  @media (max-width: 459px) {
+    main span {
+      font-size: xx-large; } }
 
 img {
   display: none;

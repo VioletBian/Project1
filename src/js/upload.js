@@ -26,17 +26,23 @@ window.onload = function () {
     this.console.log(bodyHeight);
     var windowHeight = $(window).height();     //获取窗口的的高度
     this.console.log(windowHeight);
+    var windowWidth = $(window).width();
+    this.console.log(windowWidth);
 
     var footer = document.getElementById('footer');
 
     //文档高度小于窗口高度时，给footer绝对定位。position:absolute;bottom:0;
 
-    if (windowHeight > bodyHeight) {
+    if (windowWidth > 460){
+        if (windowHeight > bodyHeight) {
         footer.style.position = "absolute";
         footer.style.bottom = "0"
-    } else {
+        this.console.log('absolute position!');
+        } else {
         footer.style.positon = "";
         footer.style.bottom = "";
+        this.console.log('relative');
+        }
     }
 }
 btnUpload.onclick = function send() {
