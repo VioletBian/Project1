@@ -7,7 +7,7 @@ footer {
   width: 100%;
   margin-top: 3%;
   text-align: center;
-  font-size: 1vw; }
+  font-size: medium; }
 
 @media (min-width: 2000px) {
   footer img {
@@ -428,7 +428,7 @@ aside table {
   width: 100%; }
 aside th {
   font-family: 'Beon';
-  font-size: 1.5vw;
+  font-size: large;
   border-bottom: 2px solid #ffffff;
   text-align: center;
   padding: 3% 0;
@@ -438,7 +438,7 @@ aside td {
 aside span {
   cursor: pointer;
   color: #4c86bd;
-  font-size: 1.2vw;
+  font-size: medium;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 aside input {
   width: 95%;
@@ -486,7 +486,7 @@ section {
   section th {
     padding: 1.4%;
     font-family: "League spartan";
-    font-size: 1.7vw;
+    font-size: larger;
     color: #3881d4;
     background-color: #c7daeb;
     text-align: left;
@@ -500,7 +500,7 @@ section {
       appearance: none;
       -moz-appearance: none;
       -webkit-appearance: none;
-      font-size: 1vw;
+      font-size: medium;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
       @media (min-width: 651px) {
         section form select {
@@ -535,7 +535,7 @@ section {
     border-radius: 6px;
     background-color: #fff;
     vertical-align: baseline;
-    font-size: 1vw;
+    font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   section ul {
     list-style: none;

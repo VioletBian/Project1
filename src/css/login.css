@@ -5,7 +5,7 @@ footer {
   width: 100%;
   margin-top: 3%;
   text-align: center;
-  font-size: 1vw; }
+  font-size: medium; }
 
 @media (min-width: 2000px) {
   footer img {
@@ -115,7 +115,7 @@ main::after {
 .no-account {
   padding: 20px 25px;
   background: #f7f7f7;
-  font-size: 0.8vw;
+  font-size: small;
   line-height: 1.7;
   text-align: center;
   max-width: 100%;

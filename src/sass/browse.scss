@@ -100,7 +100,7 @@ aside {
 
     th {
         font-family: 'Beon';
-        font-size: 1.5vw;
+        font-size: large;
         border-bottom: 2px solid #ffffff;
         // background-color: rgb(199, 218, 235);
         text-align: center;
@@ -114,7 +114,7 @@ aside {
     span {
         cursor: pointer;
         color: rgb(76, 134, 189);
-        font-size: 1.2vw;
+        font-size: medium;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         
     }
@@ -179,7 +179,7 @@ section {
     th {
         padding: 1.4%;
         font-family: "League spartan";
-        font-size: 1.7vw;
+        font-size: larger;
         color:rgb(56, 129, 212);
         background-color: rgb(199, 218, 235);
         text-align: left;
@@ -196,7 +196,7 @@ section {
             appearance:none;
             -moz-appearance:none;
             -webkit-appearance:none;
-            font-size: 1vw;
+            font-size: medium;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         
             @media (min-width: 651px){
@@ -240,7 +240,7 @@ section {
         border-radius: 6px;
         background-color: #fff;
         vertical-align: baseline;
-        font-size: 1vw;
+        font-size: medium;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     ul {

@@ -227,7 +227,7 @@ footer {
   width: 100%;
   margin-top: 3%;
   text-align: center;
-  font-size: 1vw; }
+  font-size: medium; }
 
 @media (min-width: 2000px) {
   footer img {
@@ -427,11 +427,11 @@ ul {
   object-fit: cover;
   background: rgba(99, 90, 90, 0.4); }
   .hot-images .description h2 {
-    font-size: 1.5vw;
+    font-size: large;
     font-family: 'Dancing';
     font-weight: bolder; }
   .hot-images .description p {
-    font-size: 1vw;
+    font-size: medium;
     font-family: 'Grundschrift';
     font-style: italic;
     font-weight: bold; }
