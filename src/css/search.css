@@ -327,12 +327,12 @@ blockquote {
       height: 30px; } }
   @media (min-width: 460px) and (max-width: 759px) {
     .float-button svg {
-      width: 25px;
-      height: 25px; } }
+      width: 30px;
+      height: 30px; } }
   @media (max-width: 459px) {
     .float-button svg {
-      width: 20px;
-      height: 20px; } }
+      width: 30px;
+      height: 30px; } }
 
 .down {
   transform-origin: center center;
